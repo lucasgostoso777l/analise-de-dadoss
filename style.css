@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+
+:root {
+  --bg-color: #9CDBA6;
+  --primary-color: #468585;
+  --secundary-color: #DEF9C4;
+  --font: Tomorrow;
+}
+h1 {
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
+  }nav {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+  }nav a:hover {
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+  }.graficos-container__texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secundary-color) solid 2px;
+  }
+  
+Recompensa desbloqueada! Copie o código CSS abaixo e cole no seu arquivo style.css
+#graficos-container {
+  margin: 5rem;
+}
+
+Recompensa desbloqueada! Copie o código CSS abaixo e cole no seu arquivo style.css
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  width: 100%;
+  height: 3rem;
+  margin-top: 2rem;
+}
